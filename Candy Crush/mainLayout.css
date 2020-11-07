@@ -1,0 +1,70 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+/* REMOVE ME - dashed lines and height for debugging */
+/*#mainColumn {
+  outline: 1px dashed orange;
+  height: 200px;
+} */
+
+#firstColumn, #mainColumn, #lastColumn {
+	margin: auto;
+	padding: 10px;
+}
+/* Your css code here! */
+
+/*Candy Crush Title*/
+
+#gameTitle {
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+#moveTitle {
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+
+#gameBoard {
+	margin: auto;
+	width: 320px;
+	height: 320px;
+	table-layout: fixed;
+	border: 1px solid black;
+}
+
+.gridstyle {
+	border: 1px  solid white;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+}
+
+td {
+	border: 1px  solid white;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+td {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
+#moveInput {
+	width: 50px;
+}
+
+#moveInput:hover, #moveInput:focus {
+	box-shadow: 0 0 5px blue;
+}
+
+#arrowContainer {
+	margin: 10px auto;
+}
